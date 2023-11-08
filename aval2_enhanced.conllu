@@ -1,0 +1,111 @@
+# newpar
+# sent_id = 7
+# text = Prematuros e crianças de baixo peso: Estudos clínicos demonstram que a dose de 1mL (100.000 UI de nistatina) quatro vezes a o dia é efetiva.
+# user_id = buzatodalmo
+# timestamp = 1699405855778
+# is_done = 1
+# status = The user saved this sentence.
+1	Prematuros	prematuro	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+2	e	e	CCONJ	_	_	3	cc	_	_
+3	crianças	criança	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	baixo	baixo	ADJ	_	Gender=Masc|Number=Sing	6	amod	_	_
+6	peso	peso	NOUN	_	Gender=Masc|Number=Sing	3	nmod	3:nmod:de	SpaceAfter=No
+7	:	:	PUNCT	_	_	1	punct	_	_
+8	Estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	10	nsubj	_	_
+9	clínicos	clínico	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	demonstram	demonstrar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+11	que	que	SCONJ	_	_	28	mark	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	dose	dose	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	1mL	1ml	NOUN	_	Gender=Masc|Number=Sing	13	nmod	13:nmod:de	_
+16	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	100.000	100.000	NUM	_	NumType=Card	18	nummod	_	_
+18	UI	UI	NOUN	_	Gender=Masc|Number=Plur	15	appos	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	nistatina	nistatina	NOUN	_	Gender=Fem|Number=Sing	18	nmod	18:nmod:de	SpaceAfter=No
+21	)	)	PUNCT	_	_	18	punct	_	_
+22	quatro	quatro	NUM	_	NumType=Card	23	nummod	_	_
+23	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	15	nmod	_	_
+24	a	a	ADP	_	_	26	case	_	_
+25	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	dia	dia	NOUN	_	Gender=Masc|Number=Sing	23	nmod	23:nmod:a	_
+27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	efetiva	efetivo	ADJ	_	Gender=Fem|Number=Sing	10	ccomp	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	1	punct	_	_
+
+# newpar
+# sent_id = 8
+# text = Para melhor adesão a o tratamento, as diretrizes sobre posologia e administração de o produto devem ser reforçadas por o médico em o início de o tratamento.
+# user_id = buzatodalmo
+# timestamp = 1699405985042
+# is_done = 1
+# status = The user saved this sentence.
+1	Para	para	ADP	_	_	3	case	_	_
+2	melhor	melhor	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	adesão	adesão	NOUN	_	Gender=Fem|Number=Sing	19	obl	19:obl:para	_
+4	a	a	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	3	nmod	3:nmod:a	SpaceAfter=No
+7	,	,	PUNCT	_	_	3	punct	_	_
+8	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	diretrizes	diretriz	NOUN	_	Gender=Fem|Number=Plur	17	nsubj:pass	19:nsubj:xsubj	_
+10	sobre	sobre	ADP	_	_	11	case	_	_
+11	posologia	posologia	NOUN	_	Gender=Fem|Number=Sing	9	nmod	9:nmod:sobre	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	administração	administração	NOUN	_	Gender=Fem|Number=Sing	11	conj	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	produto	produto	NOUN	_	Gender=Masc|Number=Sing	13	nmod	13:nmod:de	_
+17	devem	dever	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	ser	ser	AUX	_	VerbForm=Inf	19	aux:pass	_	_
+19	reforçadas	reforçar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	17	xcomp	_	_
+20	por	por	ADP	_	_	22	case	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	médico	médico	NOUN	_	Gender=Masc|Number=Sing	19	obl:agent	19:obl:por	_
+23	em	em	ADP	_	_	25	case	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	início	início	NOUN	_	Gender=Masc|Number=Sing	19	obl	19:obl:por	_
+26	de	de	ADP	_	_	28	case	_	_
+27	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	tratamento	tratamento	NOUN	_	Gender=Masc|Number=Sing	25	nmod	25:nmod:de	SpaceAfter=No
+29	.	.	PUNCT	_	_	17	punct	_	_
+
+# newpar
+# sent_id = 9
+# text = Noazy® deve ser tomado por via oral, e pode ser tomado com ou sem alimentos porque os alimentos não têm efeito sobre a extensão de a absorção.
+# user_id = buzatodalmo
+# timestamp = 1699406369405
+# is_done = 1
+# status = The user saved this sentence.
+1	Noazy®	Noazy®	PROPN	_	Gender=Masc|Number=Sing	2	nsubj:pass	4:nsubj:xsubj|12:nsubj:xsubj	_
+2	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ser	ser	AUX	_	VerbForm=Inf	4	aux:pass	_	_
+4	tomado	tomar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	via	via	NOUN	_	Gender=Fem|Number=Sing	4	obl	4:obl:por	_
+7	oral	oral	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	e	e	CCONJ	_	_	10	cc	_	_
+10	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	ser	ser	AUX	_	VerbForm=Inf	12	aux:pass	_	_
+12	tomado	tomar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+13	com	com	ADP	_	_	16	case	_	_
+14	ou	ou	CCONJ	_	_	16	cc	_	_
+15	sem	sem	ADP	_	_	16	case	_	_
+16	alimentos	alimento	NOUN	_	Gender=Masc|Number=Plur	12	obl	12:obl:com	_
+17	porque	porque	SCONJ	_	_	21	mark	_	_
+18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	alimentos	alimento	NOUN	_	Gender=Masc|Number=Plur	21	nsubj	_	_
+20	não	não	ADV	_	Polarity=Neg	21	advmod	_	_
+21	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+22	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+23	sobre	sobre	ADP	_	_	25	case	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	extensão	extensão	NOUN	_	Gender=Fem|Number=Sing	22	nmod	22:nmod:sobre	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	absorção	absorção	NOUN	_	Gender=Fem|Number=Sing	25	nmod	25:nmod:de	SpaceAfter=No
+29	.	.	PUNCT	_	_	2	punct	_	_
+
